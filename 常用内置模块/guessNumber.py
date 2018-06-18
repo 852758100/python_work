@@ -15,13 +15,13 @@ if num.isdigit() and 100<=int(num)<=999:
         if int(num)>pkNum:
             print('比大','电脑出的数是:',pkNum,'你出的数是:',num, 'you win!')
         else:
-            print("比大,电脑出的数是:", pkNum, '比你出的数%s小' % num, 'you lose')
+            print("比大,电脑出的数是:", pkNum, '比你出的数%s' % num, 'you lose')
 
     else:
         if int(num)<pkNum:
             print('比小','电脑出的数是:',pkNum,'你出的数是:',num,'you win!')
         else:
-            print("比大,电脑出的数是:", pkNum, '比你出的数%s小' % num, 'you lose')
+            print("比大,电脑出的数是:", pkNum, '比你出的数%s' % num, 'you lose')
 
 
 else:
